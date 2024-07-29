@@ -56,7 +56,7 @@ thead > tr {
   background-color: lightgray;
 }
 
-/* Style all oddly-numbered rows in the tbody */
+/* Style all oddly-numbered rows in the tbody奇数行样式 */
 tbody > tr:nth-child(odd) {
   background-color: aquamarine;
 }
