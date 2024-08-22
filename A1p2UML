@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="jbY1qPeEo_zmgsBJSrM1">
-    <mxGraphModel>
+    <mxGraphModel dx="1178" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O5hcgUZb2rl4kMThfAAT-18" target="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-18" value="BullsAndCows" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="280" height="268" as="geometry">
+            <mxRectangle x="40" y="260" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-19" value="- CODE_LENGTH: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="26" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-20" value="- MAX_ATTEMPTS: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="50" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-21" value="+ main(args: String[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="78" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-34" value="+ playSinglePlayer(scanner: Scanner): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="108" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-35" value="+ generateSecretCode(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="140" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-36" value="+ isValidGuess(guess: String): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="172" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-37" value="+ countBulls(secret: String, guess: String): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="204" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-38" value="+ countCows(secret: String, guess: String): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry y="236" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-29" value="Main" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="150" height="44" as="geometry">
+            <mxRectangle x="90" y="90" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-31" value="+ main(args:String[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-29">
+          <mxGeometry y="20" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-39" value="BullsAndCowsPlayerAndRobot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="630" width="300" height="300" as="geometry">
+            <mxRectangle x="30" y="630" width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-40" value="- CODE_LENGTH: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="26" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-41" value="- MAX_ATTEMPTS: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="50" width="300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-42" value="+ main(args: String[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="78" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-43" value="+ playPlayerVsComputer(scanner: Scanner): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="108" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-44" value="+ getPlayerSecretCode(scanner: Scanner): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="140" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-45" value="+ generateSecretCode(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="172" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-46" value="+ isValidGuess(guess: String): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="204" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-47" value="+ countBulls(secret: String, guess: String): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="236" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-51" value="+ countCows(secret: String, guess: String): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="O5hcgUZb2rl4kMThfAAT-39">
+          <mxGeometry y="268" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O5hcgUZb2rl4kMThfAAT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.446;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O5hcgUZb2rl4kMThfAAT-29" target="O5hcgUZb2rl4kMThfAAT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
